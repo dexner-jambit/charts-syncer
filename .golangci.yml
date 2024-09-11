@@ -10,7 +10,6 @@ linters:
     - govet
     - ineffassign
     - lll
-    - megacheck
     - misspell
     - nakedret
     - revive
@@ -42,6 +41,7 @@ issues:
 
   exclude:
     - parameter .* always receives
+    - G115
 
   exclude-rules:
     # EXC0009
